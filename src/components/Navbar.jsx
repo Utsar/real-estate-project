@@ -15,7 +15,7 @@ const NavMenuLinks = styled(Link)``;
 const Navbar = () => {
   return (
     <Nav>
-      <Logo>Utsar-Living</Logo>
+      <Logo to="/">Utsar-Living</Logo>
       <MenuBars />
       <NavMenu>
         {menuData.map((item, index) => {
