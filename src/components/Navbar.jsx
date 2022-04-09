@@ -9,8 +9,12 @@ const Nav = styled.nav`
 
 const Logo = styled(Link)``;
 const MenuBars = styled.i``;
-const NavMenu = styled.div``;
-const NavMenuLinks = styled(Link)``;
+const NavMenu = styled.div`
+  background-color: teal;
+`;
+const NavMenuLinks = styled(Link)`
+  color: white;
+`;
 
 const Navbar = () => {
   return (
