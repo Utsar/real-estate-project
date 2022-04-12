@@ -1,3 +1,4 @@
+import { SLiderData } from "./assets/data/SliderData";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import GlobalStyle from "./globalStyles";
@@ -7,7 +8,7 @@ const App = () => {
     <>
       <GlobalStyle />
       <Navbar />
-      <Hero />
+      <Hero slides={SLiderData} />
     </>
   );
 };
