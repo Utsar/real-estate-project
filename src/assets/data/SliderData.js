@@ -3,7 +3,7 @@ import villaTwo from "../images/villaTwo.jpg";
 import villaThree from "../images/villaThree.jpg";
 import villaFour from "../images/villaFour.jpg";
 
-export const SLiderData = [
+export const SliderData = [
   {
     title: "Luxury Villa one",
     price: "$4,000,000",

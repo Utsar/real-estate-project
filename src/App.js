@@ -1,4 +1,5 @@
-import { SLiderData } from "./assets/data/SliderData";
+import { SliderData } from "./assets/data/SliderData";
+import Dropdown from "./components/Dropdown";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import GlobalStyle from "./globalStyles";
@@ -8,7 +9,8 @@ const App = () => {
     <>
       <GlobalStyle />
       <Navbar />
-      <Hero slides={SLiderData} />
+      <Hero slides={SliderData} />
+      <Dropdown />
     </>
   );
 };
