@@ -6,7 +6,7 @@ import { menuData } from "../assets/data/MenuData";
 
 const DropdownContainer = styled.div`
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   width: 100%;
   height: 100%;
   background: #cd853f;
@@ -15,7 +15,8 @@ const DropdownContainer = styled.div`
   top: 0;
   left: 0;
   transition: 0.3s ease-in-out;
-  opacity: 1;
+  opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
+  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 `;
 
 const Icon = styled.div`
@@ -59,10 +60,10 @@ const ButtonWrapper = styled.div`
   justify-content: center;
 `;
 
-const Dropdown = () => {
+const Dropdown = ({ isOpen, toggle }) => {
   return (
-    <DropdownContainer>
-      <Icon>
+    <DropdownContainer isOpen={isOpen} onClick={toggle}>
+      <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <DropdownWrapper>
