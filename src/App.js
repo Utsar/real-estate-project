@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { InfoData } from "./assets/data/InfoData";
 import { SliderData } from "./assets/data/SliderData";
 import Dropdown from "./components/Dropdown";
 import Hero from "./components/Hero";
@@ -17,7 +18,7 @@ const App = () => {
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Hero slides={SliderData} />
-      <InfoSection />
+      <InfoSection {...InfoData} />
     </>
   );
 };

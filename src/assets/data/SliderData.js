@@ -1,6 +1,6 @@
 import villaOne from "../images/villaOne.jpg";
 import villaTwo from "../images/villaTwo.jpg";
-import villaThree from "../images/villaThree.jpg";
+import villaFour from "../images/villaFour.jpg";
 import villa5 from "../images/villa5.jpg";
 
 export const SliderData = [
@@ -25,7 +25,7 @@ export const SliderData = [
     price: "$2,500,000",
     label: "View Home",
     path: "/homes",
-    image: villaThree,
+    image: villaFour,
     alt: "villaThree",
   },
   {

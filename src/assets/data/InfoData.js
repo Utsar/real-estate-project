@@ -1,7 +1,7 @@
 import villa1 from "../images/villa1.jpg";
 import villa2 from "../images/villa2.jpg";
 
-export const InfodataOne = {
+export const InfoData = {
   heading: "Explore our beautiful homes",
   paragraphOne:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, dolor culpa illo perspiciatis eos veniam repellendus iure dicta saepe tenetur!",
@@ -11,7 +11,7 @@ export const InfodataOne = {
   reverse: false,
   delay: 100,
 };
-export const InfodataTwo = {
+export const InfoDataTwo = {
   heading: "Modern Designs",
   paragraphOne:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, dolor culpa illo perspiciatis eos veniam repellendus iure dicta saepe tenetur!",
