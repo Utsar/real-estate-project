@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { InfoData } from "./assets/data/InfoData";
+import { InfoData, InfoDataTwo } from "./assets/data/InfoData";
 import { SliderData } from "./assets/data/SliderData";
 import Dropdown from "./components/Dropdown";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import InfoSection from "./components/InfoSection";
 import Listings from "./components/Listings";
@@ -23,6 +24,8 @@ const App = () => {
       <InfoSection {...InfoData} />
       <Listings />
       <Features />
+      <InfoSection {...InfoDataTwo} />
+      <Footer />
     </>
   );
 };
